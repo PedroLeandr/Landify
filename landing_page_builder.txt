@@ -1,0 +1,66 @@
+### Projeto: Plataforma de Landing Pages Automáticas
+
+**Descrição Geral:**
+A plataforma será uma aplicação web onde os usuários podem criar landing pages de forma automática e personalizada. O sistema oferecerá templates minimalistas e futuristas, permitindo a customização visual e funcional através de uma interface intuitiva. Além disso, incluirá ferramentas de automação para otimizar o processo de criação e publicação das páginas.
+
+### Task List
+
+#### Zona de Automação
+
+- **Geração automática de templates:**
+  - Criar um sistema que permita a escolha de templates predefinidos.
+  - Implementar um mecanismo de preenchimento automático com base em dados fornecidos pelo usuário.
+- **Publicação automática:**
+  - Integrar serviços como Netlify ou Vercel para publicar páginas com um clique.
+  - Configurar domínios customizados para os usuários.
+- **Integração com APIs externas:**
+  - Permitir a conexão com serviços como Mailchimp, Google Analytics e redes sociais.
+
+#### Site Minimalista
+
+- **Design futurista e responsivo:**
+  - Usar frameworks modernos como TailwindCSS para um design clean.
+  - Garantir responsividade para dispositivos móveis, tablets e desktops.
+- **Editor visual intuitivo:**
+  - Implementar uma interface "drag-and-drop" para customização das páginas.
+  - Adicionar opções de alteração de cores, fontes e layout.
+- **Modo escuro e claro:**
+  - Oferecer suporte a modos de tema para atender preferências dos usuários.
+
+#### Funcionalidades Principais
+
+- **Autenticação de usuários:**
+  - Implementar login e registro com suporte a OAuth (Google, GitHub).
+- **Gerenciamento de projetos:**
+  - Criar um painel onde os usuários possam gerenciar suas landing pages.
+  - Permitir edições, duplicações e exclusões de páginas.
+- **Preview em tempo real:**
+  - Exibir uma pré-visualização instantânea das alterações realizadas.
+
+#### Backend e Infraestrutura
+
+- **Servidor Backend:**
+  - Usar Node.js com Express ou Django para gerenciar as requisições.
+  - Implementar um sistema de armazenamento para salvar configurações das páginas (PostgreSQL ou MongoDB).
+- **Hospedagem:**
+  - Configurar o backend em um provedor como AWS, Heroku ou Render.
+- **Segurança:**
+  - Implementar criptografia de dados (HTTPS e bcrypt para senhas).
+
+#### Funcionalidades Extras (opcionais)
+
+- **Análises integradas:**
+  - Criar um painel de visualização de métricas das páginas (visitas, cliques, conversões).
+- **Sistema de feedback:**
+  - Permitir que os visitantes das páginas enviem feedbacks diretamente ao criador.
+- **Marketplace de templates:**
+  - Oferecer um lugar para criadores enviarem e venderem templates personalizados.
+
+#### Cronograma
+
+1. **Mês 1-2:** Planejamento, prototipação e escolha de tecnologias.
+2. **Mês 3-4:** Desenvolvimento do frontend básico e do editor visual.
+3. **Mês 5-6:** Criação do backend e implementação de autenticação.
+4. **Mês 7-8:** Integração do editor com backend e automação de publicação.
+5. **Mês 9-10:** Testes, ajustes e implementação de funcionalidades extras.
+6. **Mês 11-12:** Testes finais, documentação e lançamento da plataforma.
